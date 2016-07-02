@@ -76,7 +76,7 @@ define('DISABLE_WP_CRON', env('DISABLE_WP_CRON') ?: false);
 define('DISALLOW_FILE_EDIT', true);
 
 define('WP_ALLOW_MULTISITE', true);
-define('MULTISITE', true);
+define('MULTISITE', false);
 define('SUBDOMAIN_INSTALL', true); // Set to false if using subdirectories
 define('DOMAIN_CURRENT_SITE', env('DOMAIN_CURRENT_SITE'));
 define('PATH_CURRENT_SITE', '/');
